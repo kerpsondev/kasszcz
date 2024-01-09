@@ -1,3 +1,5 @@
+package podstawa;
+
 public class zad18 {
     public static void main(String[] args) {
         double prowizja= 0.02;

@@ -1,3 +1,5 @@
+package podstawa;
+
 public class zad19 {
     public static void main(String[] args) {
         double liczbakonsumentow= 12467;

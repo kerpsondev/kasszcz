@@ -1,3 +1,5 @@
+package podstawa;
+
 import java.util.Scanner;
 
 public class zad11 {

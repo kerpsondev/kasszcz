@@ -1,23 +1,25 @@
+import java.util.Scanner;
+
 public class zad6 {
     public static void main(String[] args) {
-        int pokoj1;
-        pokoj1=3*4;
+        Scanner wpis = new Scanner(System.in);
 
-        int pokoj2;
-        pokoj2=3*4;
+        System.out.println("podaj liczbę sekund: ");
+        double czas = wpis.nextDouble();
+        double minuta = 0;
+        double godzina = 0;
+        double dni = 0;
+        double sekundy = 0;if(czas>=86400){
+            dni=czas/86400;
+        }
+        else if(czas<=3600){
+            godzina=czas/3600;
+        }
+        else if(czas<=60){
+            minuta=czas/60;
+        }
+        else sekundy=czas;
 
-        int pokoj3;
-        pokoj3=2*3;
-
-        int pokoj4;
-        pokoj4=2*2;
-
-        int calepole=pokoj1+pokoj2+pokoj3+pokoj4;
-
-        int na1os= calepole;
-        double powierzchnia;
-        powierzchnia = (double)calepole/4;
-
-        System.out.println("powierzchnia przypadająca na jedna osobe wynosi: " +  powierzchnia );
+        System.out.println(czas + "sekund to " + dni +"dni "+godzina+"godzin "+ minuta+"minut");
     }
 }

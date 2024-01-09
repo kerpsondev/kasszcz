@@ -1,3 +1,5 @@
+package podstawa;
+
 public class zad22 {
     public static void main(String[] args) {
         double wartoscakcji = 32.87*1000;
